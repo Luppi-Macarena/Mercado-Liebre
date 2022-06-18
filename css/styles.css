@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky {
+    position: fixed;
+    height: 145px;
+    width: 100%;
+    background-color: #fbbc02;
+    z-index: 10;
+}
+
+.logo {
+    margin: 20px 0 0 35px;
+    height: auto;
+    width: 200px;
+}
+
+.div1 {
+    color: rgba(0, 0, 0, 0.700);
+    display: inline-block;
+}
+
+.bl {
+    position: absolute;
+    top: 75%;
+    left: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tr {
+    position: absolute;
+    top: 16%;
+    right: 35px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trans {
+    position: absolute;
+    top: 13%;
+    right: 287px;
+}
+
+.br {
+    position: absolute;
+    top: 75%;
+    right: 170px;
+    text-decoration: none;
+    border: hidden;
+    color: rgba(0, 0, 0, 0.700);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+    position: absolute;
+    top: 75%;
+    right: 140px;
+}
+
+.br2 {
+    position: absolute;
+    top: 75%;
+    right: 70px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    position: absolute;
+    top: 75%;
+    right: 45px;
+}
+
+.div1:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 0;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+.carousel {
+    margin-top: 72px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+main {
+    margin-bottom: 15px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: black;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.ofertas {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.figure1 .img1 {
+    width: 100%;
+    height: 215px;
+    object-fit: contain;
+    padding: 15%;
+    box-sizing: border-box;
+
+}
+
+.ofertas .card1 {
+    flex: 1;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.detalle1 h4 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+}
+
+.card1 .detalle1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.btn1 {
+    width: 92px;
+    height: 30px;
+    background-color: #3483fa;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.btn1:hover {
+    background-color: green;
+
+}
+
+.destacados {
+    width: 80%;
+    margin: auto;
+}
+
+.destacados .card2 {
+    position: relative;
+}
+
+.destacados .card2 .figure2 {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.destacados .card2 .figure2 .img2 {
+    width: 100%;
+    height: 340px;
+    object-fit: contain;
+}
+
+.destacados .card2 .detalle2{
+    position: absolute;
+    top: 44%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+.f1 {
+    color: black;
+    border-right: 1px solid rgba(0, 0, 0, 0.350);
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.last-f1 {
+    border-right: none;
+}
+
+h6 {
+    text-align: left;
+    display: inline-flex;
+    color: black;
+    font-weight: lighter;
+}
+
+.facebook .instagram .linkedin .youtube {
+    padding: 0%;
+    display: inline;
+}
+
+.input-email {
+    padding-left: 5px;
+}
+
+.enviar {
+    width: 80px;
+}
+.enviar:hover, .enviar:focus, .enviar:focus-visible {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:540px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .sticky {
+        height: 100px;
+    }
+
+    .carousel {
+        margin-top: 50px;
+    }
+
+    .tr, .trans, .br, .br2, .icon, .login, .bl {
+        display: none !important;
+    }
+
+    .figure1 .img1 {
+        padding: 2%;
+    }
+
+    .destacados .card2 .detalle2 h4 {
+        max-width: min-content;
+    }
+
+    footer {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:541px) and (max-width:768px)  { 
+    .figure1 .img1 {
+        padding: 5%;
+    }
+    
+    footer {
+        margin-bottom: 10px;
+    }
+
+    footer .f1 {
+        border-right: none;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px)  { 
+    .ofertas {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px)  { 
+    .ofertas {
+        width: 100%;
+    }
+}

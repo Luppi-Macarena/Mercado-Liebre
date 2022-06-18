@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fbbc02;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+h1 {
+    position: absolute;
+    justify-content: center;
+    top: 35%;
+    left: 650px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    position: absolute;
+    justify-content: center;
+    top: 20%;
+    left: 620px;
+    height: 50px;
+    width: auto;
+
+}
+
+form div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    border: 1px;
+    padding: 250px 80px 50px 80px;
+    background-color: white;
+}
